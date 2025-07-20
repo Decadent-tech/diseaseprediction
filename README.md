@@ -16,7 +16,16 @@ DISEASEPREDICTION/
 ├── visualize/
 │   ├── distribution_disease.png
 │   ├── disease_class_distribution_before_resampling.png
-│   ├── histogram_<symptom>.png
+│   ├── histogram_cough.png
+│   ├──histogram_fatigue.png
+│   ├──histogram_fever.png
+│   ├──histogram_headache.png
+│   ├──histogram_joint_pain.png
+│   ├──histogram_nausea.png
+│   ├──histogram_skin_rash.png
+│   ├──histogram_vomiting.png
+│   ├──histogram_weight_loss.png
+│   ├──histogram_yellow_eyes.png
 │   ├── confusion_matrix_svm.png
 │   ├── confusion_matrix_nb.png
 │   ├── confusion_matrix_rf.png
@@ -69,9 +78,9 @@ DISEASEPREDICTION/
 
 | Model           | Accuracy (%) |
 |----------------|--------------|
-| SVM            | ~XX.XX       |
-| Naive Bayes    | ~XX.XX       |
-| Random Forest  | ~XX.XX       |
+| SVM            | ~60.53%      |
+| Naive Bayes    | ~37.98%      |
+| Random Forest  | ~68.98%      |
 | **Combined**   | **60.64**    |
 
 > *The combined model uses majority voting to reduce variance and improve generalizability.*
@@ -89,8 +98,6 @@ DISEASEPREDICTION/
 ---
 
 ## 🛠 Requirements
-
-Install required libraries using:
 
 ```bash
 pip install -r requirements.txt
@@ -129,6 +136,6 @@ python main.py
 
 ## 📬 Contact
 
-For questions or suggestions, feel free to reach out via [GitHub](https://github.com/yourusername) or LinkedIn.
+feel free to reach out via [GitHub](https://github.com/Decadent-tech/diseaseprediction/) 
 
 ---
